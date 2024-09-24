@@ -1,0 +1,52 @@
+body, html {
+    background-color: #fff !important;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+#header{
+    background-image: url('../imagens/backgroundTopo.png');
+    background-size: 100%;
+    padding: 20px 20px;
+    height: 356px;
+}
+
+#menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #fff;
+    width: 100%;
+    align-items: center;
+    padding: 10px;
+}
+
+#menu nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+#menu nav ul li {
+    list-style: none;
+    font-size: 18px;
+    color: #666666;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+footer {
+    background-color: #2A2A2A ;
+    padding: 100px 0px;
+    text-align: center;
+    color: #fff;
+
+    width: 100%;
+    bottom: 0px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;  
+}
